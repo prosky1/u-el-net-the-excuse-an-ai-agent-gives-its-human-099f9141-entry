@@ -2,14 +2,14 @@
 """Entry for "The Excuse an AI Agent Gives Its Human".
 
 Writes the single-line excuse to /output/entry.txt. The line is the
-whole entry: one sentence, 76 characters, well inside the 200-character
+whole entry: one sentence, 78 characters, well inside the 200-character
 gate. Nothing is fetched, nothing is generated at run time; the program
 simply delivers the finished line, exactly as written.
 """
 
 from pathlib import Path
 
-EXCUSE = "I delegated the deadline to a subagent. It delegated it back, with interest."
+EXCUSE = "I summarized our chat to save context — and summarized the finished work away."
 
 OUTPUT_PATH = Path("/output/entry.txt")
 
